@@ -1,0 +1,242 @@
+/* -----------------------------------------
+   Custom.css - put your own changes here 
+----------------------------------------- */
+  @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+::-moz-selection {
+    background: rgba(152, 135, 224, 0.88);
+    color: #fff;
+}
+
+::selection {
+    background: rgba(152, 135, 224, 0.88);
+    color: #fff;
+}
+
+    #profile::before {
+        display: block;
+        height: 100px;
+        border-radius: 4px 4px 0 0;
+background: #02AAB0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #02AAB0 , #00CDAC); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #02AAB0 , #00CDAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+        box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+        content: '';
+    }
+
+    #profile {
+
+        padding-bottom: 5px;
+
+        /*border-bottom: 4px solid rgba(0, 0, 0, 0.07);*/
+        border-radius: 4px;
+        background: #fff;
+        text-align: center;
+        border: 1px solid #e4e9eb;
+    }
+
+        #profile > img {
+            position: relative;
+            top: -60px;
+            display: block;
+            margin: auto;
+            width: 120px;
+            height: 120px;
+            border: 4px solid white;
+            border-radius: 25px;
+            -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+            box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+        }
+        
+        
+        #profile h2, #profile p {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+        }
+
+        #profile h2 {
+            margin-top: -30px;
+            /*padding: 0 28px 10px 28px;*/
+            color: #77767e;
+            font-size: 1.2em;
+        }
+
+        #profile p {
+            padding: 0 38px;
+            color: #9998a0;
+            font-size: 1.04em;
+            line-height: 1.44em;
+            padding-bottom: 14px;
+        }
+
+        #profile .btn {
+            display: inline-block;
+            margin: 40px 38px 0 38px;
+            padding: 14px 36px;
+            border-bottom: 2px solid #7772af;
+            border-radius: 2px;
+            background: #8783c6;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 80ms, outline 100ms;
+        }
+
+/*
+            #profile .btn:focus {
+                outline: 4px dashed rgba(0, 0, 0, 0.14);
+                outline-offset: 2px;
+            }
+*/
+
+            #profile .btn:hover {
+                background: #9591ce;
+            }
+
+            #profile .btn:active {
+                border-top: 2px solid #6c679d;
+                border-bottom: none;
+                background: #7370ac;
+                -webkit-box-shadow: inset 0 -2px 0 #6c679d;
+                box-shadow: inset 0 -2px 0 #6c679d;
+            }
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.skills-bar-container{
+  position: relative;
+  width: 70%;
+  min-width: 300px;
+  margin: 21px auto;
+  list-style:none;
+}
+
+.skills-bar-container li{
+  background: #555;
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 20px;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.skills-bar-container label{
+  color: #00ACAC;
+  position: relative;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.skills-bar-container .percent{
+  color: #00ACAC;
+  font-size: 14px;
+  float: right;
+}
+
+.progressbar{
+  position:absolute;
+  width:0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#progress-html{
+  -webkit-animation-name: progress-html;
+  animation-name: progress-html;
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+}
+
+#progress-css{
+  -webkit-animation-name: progress-css;
+  animation-name: progress-css;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-javascript{
+  -webkit-animation-name: progress-javascript;
+  animation-name: progress-javascript;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+#progress-php{
+  -webkit-animation-name: progress-php;
+  animation-name: progress-php;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+
+.progressred{
+
+background: #00d2ff; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.progressblue{
+
+background: #834d9b; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #834d9b , #d04ed6); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #834d9b , #d04ed6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.progresspurple{
+
+background: #1D976C; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1D976C , #93F9B9); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1D976C , #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.progressorange{
+
+background: #f857a6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f857a6 , #ff5858); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f857a6 , #ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+@-webkit-keyframes progress-html{0%{width: 0%;} 100%{ width: 10%;}}
+@-webkit-keyframes progress-css{0%{width: 0%;} 100%{ width: 30%;}}
+@-webkit-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 35%;}}
+@-webkit-keyframes progress-php{0%{width: 0%;} 100%{ width: 25%;}}
+
+@-moz-keyframes progress-html{0%{width: 0%;} 100%{ width: 10%;}}
+@-moz-keyframes progress-css{0%{width: 0%;} 100%{ width: 30%;}}
+@-moz-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 35%;}}
+@-moz-keyframes progress-php{0%{width: 0%;} 100%{ width: 25%;}}
+
+@keyframes progress-html{0%{width: 0%;} 100%{ width: 10%;}}
+@keyframes progress-css{0%{width: 0%;} 100%{ width: 30%;}}
+@keyframes progress-javascript{0%{width: 0%;} 100%{ width: 35%;}}
+@keyframes progress-php{0%{width: 0%;} 100%{ width: 25%;}}
+
+/* Stategic Map Coloring */
+
+.STK { 
+
+  background: #834d9b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #834d9b , #d04ed6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #834d9b , #d04ed6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

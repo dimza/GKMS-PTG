@@ -1,0 +1,7 @@
+%div.selector
+  %ul
+    - (1..8).each do |i|
+      %li
+        %input{:id => i, :type => "checkbox"}
+        %label{:for => i} Option #{i}
+  %button Click here

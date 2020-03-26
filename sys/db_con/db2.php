@@ -1,0 +1,1 @@
+<?PHP $con = mysqli_connect("localhost","root","","gkms"); ?>

@@ -1,0 +1,42 @@
+#progress-fin-individual{
+  -webkit-animation-name: progress-fin-individual;
+  animation-name: progress-fin-individual;
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+}
+    
+#progress-stk-individual{
+  -webkit-animation-name: progress-stk-individual;
+  animation-name: progress-stk-individual;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-ip-individual{
+  -webkit-animation-name: progress-ip-individual;
+  animation-name:  progress-ip-individual;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+#progress-lg-individual{
+  -webkit-animation-name: progress-lg-individual;
+  animation-name: progress-lg-individual;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+
+@-webkit-keyframes progress-fin-individual{0%{width: 0%;} 100%{ width: 10%;}}
+@-webkit-keyframes progress-stk-individual{0%{width: 0%;} 100%{ width: 30%;}}
+@-webkit-keyframes progress-ip-individual{0%{width: 0%;} 100%{ width: 35%;}}
+@-webkit-keyframes progress-lg-individual{0%{width: 0%;} 100%{ width: 25%;}}
+
+@-moz-keyframes progress-fin-individual{0%{width: 0%;} 100%{ width: 10%;}}
+@-moz-keyframes progress-stk-individual{0%{width: 0%;} 100%{ width: 30%;}}
+@-moz-keyframes progress-ip-individual{0%{width: 0%;} 100%{ width: 35%;}}
+@-moz-keyframes progress-lg-individual{0%{width: 0%;} 100%{ width: 25%;}}
+
+@keyframes progress-fin-individual{0%{width: 0%;} 100%{ width: 10%;}}
+@keyframes progress-stk-individual{0%{width: 0%;} 100%{ width: 30%;}}
+@keyframes progress-ip-individual{0%{width: 0%;} 100%{ width: 35%;}}
+@keyframes progress-lg-individual{0%{width: 0%;} 100%{ width: 25%;}}
